@@ -29,7 +29,7 @@ const useDelete = ({ url }) => {
           variant: "error",
         });
       });
-  }, [url]);
+  }, [apiUrl, enqueueSnackbar, url]);
   return [res, callAPI];
 };
 

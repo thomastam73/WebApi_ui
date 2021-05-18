@@ -29,7 +29,7 @@ const usePost = ({ url, payload }) => {
           variant: "error",
         });
       });
-  }, [url, payload]);
+  }, [apiUrl, url, payload, enqueueSnackbar]);
   return [res, callAPI];
 };
 

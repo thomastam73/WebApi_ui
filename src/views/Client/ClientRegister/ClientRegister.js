@@ -54,14 +54,6 @@ const ClientSignIn = () => {
     setStates({ ...states, [prop]: event.target.value });
   };
 
-  const handleRegister = async (event) => {
-    if (states.password !== states.repeatPassword) {
-    } else {
-      event.preventDefault();
-      postMethod();
-    }
-  };
-
   return (
     <Container component="main" maxWidth="xs">
       <div className={classes.paper}>

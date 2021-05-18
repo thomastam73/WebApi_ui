@@ -29,7 +29,7 @@ const usePut = ({ url, payload }) => {
           variant: "error",
         });
       });
-  }, [url, payload]);
+  }, [apiUrl, url, payload, enqueueSnackbar]);
   return [res, callAPI];
 };
 

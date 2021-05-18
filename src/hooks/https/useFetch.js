@@ -41,7 +41,7 @@ const useFetch = (initialUrl, skip = false) => {
       }
     };
     fetchData();
-  }, [url]);
+  }, [enqueueSnackbar, skip, url]);
   return { data, isLoading, hasError, errorMessage };
 };
 export default useFetch;
