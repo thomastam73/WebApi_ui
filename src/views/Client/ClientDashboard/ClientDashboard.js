@@ -25,6 +25,9 @@ const ClientDashboard = () => {
           </Typography>
           <Divider />
         </Grid>
+        <Grid>
+          <Typography variant="body">Deaf and Dumb People Website</Typography>
+        </Grid>
       </Grid>
     </div>
   );
