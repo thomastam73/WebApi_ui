@@ -30,7 +30,7 @@ const Dashboard = (props) => {
 
   const classes = useStyles();
   const theme = useTheme();
-  const isDesktop = useMediaQuery(theme.breakpoints.up("lg"), {
+  const isDesktop = useMediaQuery(theme.breakpoints.up("md"), {
     defaultMatches: true,
   });
 

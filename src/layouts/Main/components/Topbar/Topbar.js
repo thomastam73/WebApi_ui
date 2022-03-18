@@ -82,7 +82,7 @@ const Topbar = (props) => {
         </RouterLink>
         <div className={classes.flexGrow} />
         {setLoginStauts()}
-        <Hidden lgUp>
+        <Hidden mdUp>
           <IconButton color="inherit" onClick={onSidebarOpen}>
             <MenuIcon />
           </IconButton>
